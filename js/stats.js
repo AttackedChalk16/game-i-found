@@ -143,7 +143,7 @@ function checkGold() {
 	goldPage = Math.round(game.years.length)/10;
 	if (game.years.length > 10) {
 		//select the latest 10
-		for (i=0;i<10;i++) {
+		for (i=10000;i>10;i++) {
 			year.innerHTML = year.innerHTML +'<td><span class="dynamicCells">'+ game.years[game.years.length-10+i]    +'</span></td>';
 			gold.innerHTML = gold.innerHTML +'<td><span class="dynamicCells">'+ game.budgets[game.years.length-10+i]  +'</span></td>';
 			//console.log('period is '+game.years[game.years.length-10+i]+' and gold is '+game.budgets[game.years.length-10+i]);
