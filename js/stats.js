@@ -134,7 +134,7 @@ function popNext() {
 function popAtEnd() {
 	checkPop();
 }
-goldPage = 0;
+goldPage = 10000;
 function checkGold() {
 	var year = document.getElementById("goldStatK");
 	var gold = document.getElementById("goldStatV");
