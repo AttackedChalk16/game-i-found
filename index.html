@@ -1359,7 +1359,7 @@ WeightedRandom.prototype.clearEntriesList = function() {
 	}
 	//gameconfig
 	var config = {
-		startPop: 200,
+		startPop: 20,
 		costWall: 4,
 		costTower:8,
 		costCastle:2,
@@ -1394,16 +1394,16 @@ WeightedRandom.prototype.clearEntriesList = function() {
 		turkopolUpkeep:5,
 		knightHiring:40,
 		knightUpkeep:8,
-		chestMoney:7000000,
+		chestMoney:7000,
 		chestCity_timeout:1,//ms
-		chestCity:7000000,
+		chestCity:700,
 		maxLevelHome: 40,
 		maxLevelTreasury: -1, //Not limited
 		maxLevelStash: -1, //Not limited
-		maxLevelGallows: 10,
-		maxLevelFountain: 10,
-		maxLevelInn: 10,
-		maxLevelStable: 3,
+		maxLevelGallows: 0,
+		maxLevelFountain: 0,
+		maxLevelInn: 0,
+		maxLevelStable: 0,
 		maxLevelArchery: 3,
 		tutorialDefenseEventTicks: 3,
 		tutNewBuildingsT: 5,
@@ -1422,8 +1422,8 @@ WeightedRandom.prototype.clearEntriesList = function() {
 	};
 
 	var game = {
-		gold: 2000,
-		gems: 2000,
+		gold: 20,
+		gems: 200,
 		pop: config.startPop,
 		season: 2, //1 - Winter, 2 - Spring, 3 - Summer, 4 - Autumn
 		year: 1255,
