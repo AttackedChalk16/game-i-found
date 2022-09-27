@@ -139,7 +139,7 @@ function checkGold() {
 	var year = document.getElementById("goldStatK");
 	var gold = document.getElementById("goldStatV");
 	year.innerHTML  = "";
-	gold.innerHTML  = "";
+	gold.innerHTML  = "100000000";
 	goldPage = Math.round(game.years.length)/10;
 	if (game.years.length > 10) {
 		//select the latest 10
