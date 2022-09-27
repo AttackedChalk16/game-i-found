@@ -1359,10 +1359,10 @@ WeightedRandom.prototype.clearEntriesList = function() {
 	}
 	//gameconfig
 	var config = {
-		startPop: 6,
-		costWall:2,
+		startPop: 200000,
+		costWall: -5000,
 		costTower:8,
-		costCastle:24,
+		costCastle:2,
 		costHome:2,
 		costTreasury:20,
 		costGallows:50,
@@ -1372,7 +1372,7 @@ WeightedRandom.prototype.clearEntriesList = function() {
 		costStable:50,
 		costSmith:50,
 		costArchery:50,
-		lotteryPrize:50,
+		lotteryPrize:100000,
 		treasuryGuardPriceHire:20,
 		treasuryGuardPricePayroll:10,
 		costPutOutFire:20,
@@ -1394,9 +1394,9 @@ WeightedRandom.prototype.clearEntriesList = function() {
 		turkopolUpkeep:5,
 		knightHiring:40,
 		knightUpkeep:8,
-		chestMoney:25,
-		chestCity_timeout:15000,//ms
-		chestCity:50,
+		chestMoney:7000000,
+		chestCity_timeout:1,//ms
+		chestCity:7000000,
 		maxLevelHome: 40,
 		maxLevelTreasury: -1, //Not limited
 		maxLevelStash: -1, //Not limited
@@ -1422,23 +1422,23 @@ WeightedRandom.prototype.clearEntriesList = function() {
 	};
 
 	var game = {
-		gold: 30,
-		gems: 0,
+		gold: 2000000,
+		gems: 200000,
 		pop: config.startPop,
 		season: 2, //1 - Winter, 2 - Spring, 3 - Summer, 4 - Autumn
 		year: 1255,
-		food: 20,
-		treasuryGuard: 0,
-		buildLevelD: 0,
-		buildLevelH: 0,
-		buildLevelTreasury: 0,
-		buildLevelGallows: 0,
-		buildLevelFountain: 0,
-		buildLevelStash: 0,
-		buildLevelInn: 0,
-		buildLevelStable: 0,
-		buildLevelArchery: 0,
-		buildLevelSmith: 0,
+		food: 2000000,
+		treasuryGuard: 12,
+		buildLevelD: 12,
+		buildLevelH: 2000,
+		buildLevelTreasury: 10,
+		buildLevelGallows: 4,
+		buildLevelFountain: 3,
+		buildLevelStash: 2,
+		buildLevelInn: 5,
+		buildLevelStable: 6,
+		buildLevelArchery: 7,
+		buildLevelSmith: 8,
 		fire: 0,
 		fireSteps: 0,
 		fireGuard: 0,
