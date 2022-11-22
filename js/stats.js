@@ -177,7 +177,7 @@ function goldAtStart() {
 	var gold = document.getElementById("goldStatV");
 	year.innerHTML  = "";
 	gold.innerHTML  = "";
-	goldPage  = 0;
+	goldPage  = 10000;
 	if (game.years.length > 10) {
 		//select the latest 10
 		for (i=0;i<10;i++) {
